@@ -1,16 +1,13 @@
-print("Akash")
 import streamlit as st
 import time
 import pandas as pd
 import numpy as np
 
 import openai
-openai.api_key = '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'
+
 import imaplib
 import email
 import yaml
-
-
 
 import json
 import requests
@@ -190,7 +187,10 @@ with st.sidebar:
 
         #st.write("Inside the form")
         user = st.text_input("write your email ID here")
-        password = st.text_input("write your App password")
+        password = st.text_input("write your App password", type = "password")
+        open_AI_Key = st.text_input("Enter the OpenAI API Key", type = "password")
+
+        openai.api_key = open_AI_Key
         #keyword = st.text_input("write the keyword")
 
         
@@ -300,6 +300,9 @@ if st.session_state['step'] == 2:
                         body_part=part.get_payload()
                         body_part=body_part.replace('\r\n', ' ')
                         body_part=body_part.replace('=E2=82=AC', '')
+                        body_part=body_part.replace('$', '')
+                        
+
                 #st.write(body_part)
                 extracted.append(body_part)
 
