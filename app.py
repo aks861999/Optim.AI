@@ -20,6 +20,24 @@ import plotly.express as px
 
 global submitted_login_button, username, df, submitted_keyword_button
 
+
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
 imap_url = 'imap.gmail.com'
 
 
