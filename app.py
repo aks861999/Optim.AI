@@ -363,7 +363,7 @@ if st.session_state['step'] == 2:
 
     st.text("Product Brand "+ row_df_date_dict['Brand'])
 
-    st.write("**Expected Delivery Date: - "+ str(row_df_date_dict['Delivery date']) + "**")
+    st.write("**Expected Delivery Date: - "+ str(row_df_date_dict['Delivery date']) + "!**")
 
     st.text("Price offered : - "+ str(row_df_date_dict['Quoted price'])) 
     
@@ -386,7 +386,7 @@ if st.session_state['step'] == 2:
 
     st.text("Product Brand "+ row_df_price_dict['Brand'])
 
-    st.write("**Price offered : - "+ str(row_df_price_dict['Quoted price']) + "**")
+    st.write("**Price offered : - "+ str(row_df_price_dict['Quoted price']) + "!**")
 
     st.text("Expected Delivery Date: - "+ str(row_df_price_dict['Delivery date']))
 
