@@ -394,8 +394,12 @@ if st.session_state['step'] == 2:
 
     comapny_list = df['Brand']
 
+
+    st.write("")
+    st.write("")
+    st.header('Would you like to witness brand reviews ?')
     input_from_user = st.selectbox(
-    'Would you like to witness brand reviews ?',
+    'Select the brand',
     comapny_list)
 
 
