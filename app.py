@@ -29,7 +29,7 @@ st.set_page_config(page_title="Optim.AI by Akash",page_icon='📰',layout="wide"
 
 
 st.write("**Pre-requisites to use this app :-**")
-st.markdown("- Get you GMAIL APP Password Login to your Google Account -> Security -> 2 Step Verification -> APP Password")
+st.markdown("- Get your GMAIL APP Password Login to your Google Account -> Security -> 2 Step Verification -> APP Password")
 st.markdown("- Get your OpenAI API Key")
 
 
