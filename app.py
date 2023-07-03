@@ -29,11 +29,6 @@ imap_url = 'imap.gmail.com'
 
 
 
-st.write("The following list won’t indent no matter what I try:")
-st.markdown("- Item 1")
-st.markdown("- Item 2")
-st.markdown("- Item 3")
-
 
 
 
@@ -43,6 +38,15 @@ st.markdown("- Item 3")
 
 
 st.set_page_config(page_title="Optim.AI by Akash",page_icon='📰',layout="wide")
+
+
+
+st.write("The following list won’t indent no matter what I try:")
+st.markdown("- Item 1")
+st.markdown("- Item 2")
+st.markdown("- Item 3")
+
+
 
 
 
