@@ -20,20 +20,7 @@ import plotly.express as px
 
 global submitted_login_button, username, df, submitted_keyword_button
 
-
-
-
-
-
 imap_url = 'imap.gmail.com'
-
-
-
-
-
-
-
-
 
 
 
@@ -41,10 +28,9 @@ st.set_page_config(page_title="Optim.AI by Akash",page_icon='📰',layout="wide"
 
 
 
-st.write("The following list won’t indent no matter what I try:")
-st.markdown("- Item 1")
-st.markdown("- Item 2")
-st.markdown("- Item 3")
+st.write("Pre-requisites to use this app :- ")
+st.markdown("- Get you GMAIL APP Password Login to your Google Account -> Security -> 2 Step Verification -> APP Password")
+st.markdown("- Get your OpenAI API Key")
 
 
 
