@@ -176,7 +176,7 @@ if st.session_state.get('number') is None:
 
 
 st.title('Welcome to Optim.AI')
-st.subheader("**- *"Unlock the power of data-driven decisions with our inventory management app. Seamlessly extract valuable insights from PR emails, including delivery dates, brand names, and product prices, empowering you to make the right choices for your B2B business"* -**")
+st.subheader("**- *Unlock the power of data-driven decisions with our inventory management app. Seamlessly extract valuable insights from PR emails, including delivery dates, brand names, and product prices, empowering you to make the right choices for your B2B business* -**")
 
 
 
