@@ -343,6 +343,8 @@ if st.session_state['step'] == 2:
 
         df.loc[mail_count] = extracted
         mail_count += 1
+	if mail_count == 3:
+      		time.sleep(60)
 
     #st.dataframe(df)    
     df['Quoted price']=df['Quoted price'].replace(r',',r'', regex=True)
