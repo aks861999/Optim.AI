@@ -344,7 +344,7 @@ if st.session_state['step'] == 2:
         df.loc[mail_count] = extracted
         mail_count += 1
 	if mail_count == 3:
-      		time.sleep(60)
+		time.sleep(60)
 		print(waiting for_1 minute)
 
     #st.dataframe(df)    
