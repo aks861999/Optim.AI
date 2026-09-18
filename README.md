@@ -1,9 +1,10 @@
-<video width="100%" autoplay loop muted playsinline>
-  <source src="docs/Optim.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 # Optim.AI - Intelligent B2B Inventory Management & Decision Support
+
+
+<a href="https://youtu.be/7sJD4M0ATZs">
+  <img width="100%" src="https://img.youtube.com/vi/7sJD4M0ATZs/maxresdefault.jpg" alt="Optim.AI Demo">
+</a>
+
 
 ## 📊 Overview
 
