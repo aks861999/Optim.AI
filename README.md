@@ -1,9 +1,9 @@
 # Optim.AI - Intelligent B2B Inventory Management & Decision Support
 
 
-<a href="https://youtu.be/7sJD4M0ATZs">
-  <img width="100%" src="https://img.youtube.com/vi/7sJD4M0ATZs/maxresdefault.jpg" alt="Optim.AI Demo">
-</a>
+[![Optim.AI Demo](docs/Optim.gif)](https://youtu.be/7sJD4M0ATZs)
+
+*Click the preview above to watch the full demo on YouTube.*
 
 
 ## 📊 Overview
